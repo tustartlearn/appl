@@ -1,0 +1,43 @@
+.explore {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .title {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    column-gap: 1rem;
+    width: 90%;   
+  }
+  
+  .line {
+    border: none; 
+    border-radius: 10%;
+    height: 15%; 
+    font-weight: 500;
+    background-color: rgb(255, 206, 164); 
+    width: 100%; 
+  }
+  
+  .text {
+    text-align: center;
+    white-space: nowrap; 
+    padding: 0 10px;  
+    color: aqua;
+    font-weight: 500; 
+    font-size: 1.2rem;
+  }
+  @media (max-width:768px) { 
+    .text{
+      margin-bottom: 10%; 
+      margin-top: 15px;
+    } 
+    .line{
+      height: 5%;
+    }
+    
+  }

@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: center; 
+    color: rgb(0, 140, 255);
+    padding: 10px 20px;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-around;  
+    color: rgb(0, 140, 255);
+  } 
+  .logo{ 
+    height: 5vh;
+    padding-right: -85px;
+  }
+  
+  .logo img {
+    height: 3.5vw;  
+    background-color: #fff;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style-type: none; 
+    padding-left: 250px;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;  
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer; 
+    color: rgba(14, 125, 199, 0.722);
+  }
+  
+  
+  
+  .actions {
+    display: flex;
+    align-items: center; 
+  } 
+  .actions img{
+    height: 25px; 
+    padding-right: 5px;
+  }
+  
+  .whatsapp {
+    text-decoration: none;
+    margin-right: 20px; 
+    color: #25D366;
+  }
+  
+  
+  .cart{
+    width: 30px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-content {
+      width: 100vw;
+    } 
+    .logo img{
+      width: 15vw;
+    } 
+    .menu ul{
+      padding-left: 0;  
+      margin-left: 0;
+    } 
+    .menu ul li{
+      font-size: 55%;  
+      padding-left: 0;
+      margin-left: auto;
+    } 
+    .actions a{
+      font-size: 2.1vw;
+    } 
+    .actions img{
+      height: 3.5vw;
+    }
+  }
+  
+  

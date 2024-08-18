@@ -1,0 +1,79 @@
+.explore { 
+    margin-top: 2vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 1rem;
+  }
+  
+  .scrollable-content {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box; 
+    scroll-snap-type: x mandatory; 
+    scrollbar-width: thin; 
+    scrollbar-color:  #f5f5f5; 
+  }
+  
+  .item {
+    display: inline-block;
+    min-width: 200px; 
+    min-height: 150px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    scroll-snap-align: start; 
+  }
+  
+  .item-image {
+    width: 60px; 
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .item-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .item-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .description { 
+    padding: 20px; 
+    margin: 10px 0 0 20px; 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin-bottom: 5%; 
+    
+  }
+  
+  .main-text {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    margin-top: 5%;
+  }
+  
+  .links-list {
+    font-size: 1.1rem; 
+    text-align: justify; 
+    color: #555;  
+
+  }
+  @media (max-width:468px){
+    .description{
+      margin-top: 25%;
+    }
+  }

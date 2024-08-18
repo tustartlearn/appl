@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.content {
+  margin-top: 60px; 
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.img img {
+  width: 45vw;
+  padding-left: 10%;
+  height: auto;
+}
+
+.text {
+  width: 40%;
+  padding: 0 10px; 
+}
+
+.text h1 {
+  color: rgba(68, 131, 240, 0.784); 
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.text span {
+  color: rgb(255, 166, 0);
+  padding-left: 10%; 
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.list ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.list ul li {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.offer {
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.offer-container {
+  margin-top: 20px;
+  margin-right: 5%;
+  width:20vw;
+  border: 2px solid #007bff;
+  text-align: center;
+  padding-top: 8px;
+  background: white;
+}
+
+.offer-text {
+  margin-bottom: 1.1vh;
+  font-size: 1.6vw; 
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  background-color: #fff; 
+  color: #f57c00;
+}
+
+.discount-text {
+  font-size: 2.5vw;
+  color: #f57c00; /* Orange color */
+  font-weight: bold;
+  background: #fff;
+}
+
+.Sign-up {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.Sign-up a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  font-size: 2.6vw;
+}
+
+.sign {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 8vw;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+    padding-right: 20px;
+  }
+
+  .text {
+    width: 100%;
+    margin-top: 10vw;
+  } 
+  .offer{
+    width: 100%; 
+    margin-left: 35px;
+  }
+
+  .offer-container {
+    width: 40%;
+    margin-right: 0;
+  } 
+  .offer-text{
+    font-size: 2.2vw;
+  } 
+  .discount-text{
+    font-size: 3.2vw;
+  }
+
+  .sign {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4.5vw;
+  } 
+  .sign,.Sign-up a {
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 480px) {  
+  .offer{
+    width: 70vw;
+  }
+
+  .list ul li {
+    font-size: 1em;
+  }  
+  .offer-container{
+    width: 40vw;
+  }
+
+  .offer-text {
+    font-size: 70%;
+  }
+
+  .discount-text {
+    font-size: 90%;
+  }
+
+  .Sign-up a {
+    font-size: 1.1em;
+  }
+}
