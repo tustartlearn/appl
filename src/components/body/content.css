@@ -88,7 +88,7 @@
   text-decoration: none;
   color: #007bff;
   font-weight: 500;
-  font-size: 2.6vw;
+  font-size: 1.6vw;
 }
 
 .sign {
@@ -108,30 +108,21 @@
   .text {
     width: 100%;
     margin-top: 10vw;
-  } 
-  .offer{
-    width: 100%; 
-    margin-left: 35px;
   }
 
   .offer-container {
-    width: 40%;
+    width: 50%;
     margin-right: 0;
   } 
   .offer-text{
-    font-size: 2.2vw;
-  } 
-  .discount-text{
-    font-size: 3.2vw;
+    font-size: 2vw;
   }
 
   .sign {
-    width: 100%;
-    max-width: 100%;
-    font-size: 4.5vw;
+    width: 80vw;
   } 
-  .sign,.Sign-up a {
-    font-size: 3.5vw;
+  .Sign-up a{
+    font-size: 85%;
   }
 }
 

@@ -14,6 +14,8 @@ function Footer() {
               <li> <img src={whatsapp} alt="" /></li>   
               <li> <img src={whatsapp} alt="" /></li> 
               <li> <img src={whatsapp} alt="" /></li> 
+              <li> <img src={whatsapp} alt="" /></li>  
+              <li> <img src={whatsapp} alt="" /></li> 
               <li> <img src={whatsapp} alt="" /></li> 
               
             </ul>

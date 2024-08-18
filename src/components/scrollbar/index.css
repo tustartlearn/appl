@@ -34,16 +34,13 @@
     scroll-snap-align: start; 
   }
   
-  .item-image {
-    width: 60px; 
-    height: 60px;
-    margin-bottom: 10px;
-  }
-  
   .item-title {
     font-size: 1.2rem;
     margin-bottom: 5px;
     color: #333;
+  } 
+  .item img{
+    width: 100%;
   }
   
   .item-description {
@@ -55,22 +52,25 @@
     padding: 20px; 
     margin: 10px 0 0 20px; 
     font-family: Arial, sans-serif; 
-    line-height: 1.6; 
-    margin-bottom: 5%; 
-    
+    line-height: 1.6;
   }
   
   .main-text {
     font-weight: bold; 
-    margin-bottom: 10px; 
-    margin-top: 5%;
+    margin-bottom: 10px;
   }
   
   .links-list {
     font-size: 1.1rem; 
     text-align: justify; 
-    color: #555;  
+    color: #555; 
+  } 
+  @media (max-width:768px) { 
+    .explore{
+      margin-bottom: 15%;
+    }
 
+    
   }
   @media (max-width:468px){
     .description{

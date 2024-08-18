@@ -1,45 +1,53 @@
 import React from "react";
-import "./index.css";
+import "./index.css"; 
+import logo from "..//../assets/logo.png"
 
 function Index() {
   return (
     <div className="index">
       <div className="explore">
         <div className="scrollable-content">
-          <div className="item">  
-            <hr />
-            <h3 className="item-title">Online Tests</h3> 
-            
-            <p className="item-description"> 
-              Lorem ipsum about the service just 2 lines info
-            </p>
-          </div>
-          <div className="item"> 
+        <div className="item">  
+            <img src={logo} alt="" />
             <hr />
             <h3 className="item-title">Test Generator</h3> 
             
             <p className="item-description">
-              Lorem ipsum about the service just 2 lines info
+              Lorem ipsum about the 
+              <br />Lorem ipsum dolor sit.
             </p>
           </div> 
-          <div className="item"> 
-            
-            <h3 className="item-title">Evaluation Tool</h3> 
-            <hr />   
-            
-            <p className="item-description">
-              Lorem ipsum about the service just 2 lines info
-            </p>
-          </div>
-          <div className="item">
-            <h3 className="item-title">Homework</h3> 
+          <div className="item">  
+            <img src={logo} alt="" />
             <hr />
+            <h3 className="item-title">Test Generator</h3> 
+            
             <p className="item-description">
-              Lorem ipsum about the service just 2
-              <br />
-              <span>hkk</span>
+              Lorem ipsum about the 
+              <br />Lorem ipsum dolor sit.
             </p>
-          </div>
+          </div> 
+          <div className="item">  
+            <img src={logo} alt="" />
+            <hr />
+            <h3 className="item-title">Test Generator</h3> 
+            
+            <p className="item-description">
+              Lorem ipsum about the 
+              <br />Lorem ipsum dolor sit.
+            </p>
+          </div> 
+          <div className="item">  
+            <img src={logo} alt="" />
+            <hr />
+            <h3 className="item-title">Test Generator</h3> 
+            
+            <p className="item-description">
+              Lorem ipsum about the 
+              <br />Lorem ipsum dolor sit.
+            </p>
+          </div> 
+          
         </div>
       </div>
       <div className="description">

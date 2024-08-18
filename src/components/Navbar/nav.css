@@ -85,4 +85,32 @@
     }
   }
   
+   
+  @media (max-width: 468px) {
+    .navbar-content {
+      width: 100vw;
+    } 
+    .logo img{ 
+      height: auto;
+      width: 25vw;
+    }  
+    .menu {
+      float: right;
+    }
+     
+    .menu ul li{
+      font-size: 65%;   
+      padding-left: 1%;
+    }  
+    .actions {
+      display: none;
+    }
+    .actions a{
+      font-size: 2.1vw;
+    } 
+    .actions img{
+      height: 3.5vw;
+    }
+  }
+  
   
