@@ -54,7 +54,8 @@
     padding: 20px; 
     margin: 10px 0 0 20px; 
     font-family: Arial, sans-serif; 
-    line-height: 1.6;
+    line-height: 1.6; 
+    margin-top: 8%;
   }
   
   .main-text {
@@ -72,7 +73,7 @@
       margin-bottom: 15%;
     }
     .description{
-      margin-top: 25%;
+      margin-bottom: 5%;
     }
 
     
